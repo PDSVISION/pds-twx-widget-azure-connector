@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage
+         dependsOn=""
+         description="PDSVISION ThingWorx Utilities Azure Connector"
+         haCompatible="false"
+         minimumThingWorxVersion="9.1.0"
+         name="pds-twx-azure-connector"
+         buildNumber="9.1.1"
+         packageVersion="0.0.13"
+         vendor="PDSVISION">
+            <JarResources>
+                <FileResource
+                 description=""
+                 file="azure-storage-8.6.6.jar"
+                 type="JAR"></FileResource>
+                <FileResource
+                 description=""
+                 file="pds-twx-azure-connector.jar"
+                 type="JAR"></FileResource>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <Resources>
+        <Resource
+         aspect.isCreatable="false"
+         aspect.isEditableExtensionObject="false"
+         className="pds.PDSAzureResource"
+         description=""
+         name="PDSAzureResource"></Resource>
+    </Resources>
+</Entities>
